@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ Response status code is --- 404]]>
+    </line>
+    <line>
+      <![CDATA[ WeatherEndpoint Response is : {"message":"NOT_FOUND"}]]>
+    </line>
+    <line>
+      <![CDATA[WeatherEndpoint Response headers --- 
+Server=Cowboy
+Connection=keep-alive
+Content-Type=application/json
+Date=Wed, 16 Mar 2022 04:46:58 GMT
+Content-Length=23
+Via=1.1 vegur]]>
+    </line>
+    <line>
+      <![CDATA[ Response status code is --- 200]]>
+    </line>
+    <line>
+      <![CDATA[ UserEndpoint Response is : {"userId":"44525dda-8032-49e2-a859-630d86d0bf16","username":"test001","books":[{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"}]}]]>
+    </line>
+    <line>
+      <![CDATA[UserEndpoint Response headers --- 
+Server=nginx/1.17.10 (Ubuntu)
+Date=Wed, 16 Mar 2022 04:46:59 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=1186
+Connection=keep-alive
+X-Powered-By=Express
+ETag=W/"4a2-KfG8Rtr95vl2aJvT/hFe7st3kYM"]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-16T04:46:55Z" name="Surefire suite" finished-at="2022-03-16T04:46:59Z" duration-ms="4052">
+    <groups>
+    </groups>
+    <test started-at="2022-03-16T04:46:55Z" name="Surefire test" finished-at="2022-03-16T04:46:59Z" duration-ms="4052">
+      <class name="accountsTests.UserDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:accountsTests.UserDetailsTest@a514af7]" started-at="2022-03-16T10:16:58Z" name="setup" finished-at="2022-03-16T10:16:58Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initalSetup()[pri:0, instance:accountsTests.UserDetailsTest@a514af7]" started-at="2022-03-16T10:16:58Z" name="initalSetup" finished-at="2022-03-16T10:16:58Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalSetup -->
+        <test-method signature="getUserDetails()[pri:0, instance:accountsTests.UserDetailsTest@a514af7]" started-at="2022-03-16T10:16:58Z" name="getUserDetails" finished-at="2022-03-16T10:16:59Z" duration-ms="1370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Response status code is --- 200]]>
+            </line>
+            <line>
+              <![CDATA[ UserEndpoint Response is : {"userId":"44525dda-8032-49e2-a859-630d86d0bf16","username":"test001","books":[{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"}]}]]>
+            </line>
+            <line>
+              <![CDATA[UserEndpoint Response headers --- 
+Server=nginx/1.17.10 (Ubuntu)
+Date=Wed, 16 Mar 2022 04:46:59 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=1186
+Connection=keep-alive
+X-Powered-By=Express
+ETag=W/"4a2-KfG8Rtr95vl2aJvT/hFe7st3kYM"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUserDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:accountsTests.UserDetailsTest@a514af7]" started-at="2022-03-16T10:16:59Z" name="tearDown" finished-at="2022-03-16T10:16:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- accountsTests.UserDetailsTest -->
+      <class name="weatherTests.WeatherDetailsTest">
+        <test-method is-config="true" signature="initalSetup()[pri:0, instance:weatherTests.WeatherDetailsTest@4466af20]" started-at="2022-03-16T10:16:55Z" name="initalSetup" finished-at="2022-03-16T10:16:55Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:weatherTests.WeatherDetailsTest@4466af20]" started-at="2022-03-16T10:16:55Z" name="setup" finished-at="2022-03-16T10:16:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getWeatherDetails()[pri:0, instance:weatherTests.WeatherDetailsTest@4466af20]" started-at="2022-03-16T10:16:55Z" name="getWeatherDetails" finished-at="2022-03-16T10:16:58Z" duration-ms="2669" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at weatherTests.WeatherDetailsTest.getWeatherDetails(WeatherDetailsTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ Response status code is --- 404]]>
+            </line>
+            <line>
+              <![CDATA[ WeatherEndpoint Response is : {"message":"NOT_FOUND"}]]>
+            </line>
+            <line>
+              <![CDATA[WeatherEndpoint Response headers --- 
+Server=Cowboy
+Connection=keep-alive
+Content-Type=application/json
+Date=Wed, 16 Mar 2022 04:46:58 GMT
+Content-Length=23
+Via=1.1 vegur]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:weatherTests.WeatherDetailsTest@4466af20]" started-at="2022-03-16T10:16:58Z" name="tearDown" finished-at="2022-03-16T10:16:58Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- weatherTests.WeatherDetailsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
